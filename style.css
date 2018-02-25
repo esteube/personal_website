@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+      background-color: #6F6F7F;
+
+}
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+ul {
+  text-align: center;
+  /*background-color: purple;*/
+  padding: 16px;
+  margin-right: 250px;
+
+}
+
+#navlist li {
+  font-family: 'Proza Libre', sans-serif;
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+  color: white;
+  padding: 16px;
+  float: right;
+
+}
+
+
+header {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(https://www.outtherecolorado.com/wp-content/uploads/2017/03/65c35611befe96d3a3f0f010e1e74fcd.jpg);
+  background-size: cover;
+  height: 75vh;
+}
+
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: 'Proza Libre', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 300;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+p {
+  margin: 0;
+  font-size: 1.3rem;
+  color: white;
+}
+
+main {
+  max-width: 1140px;
+  margin: 20px auto;
+  text-align: justify;
+}
