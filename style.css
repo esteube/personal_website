@@ -5,76 +5,144 @@
   box-sizing: border-box;
 }
 
-
-body {
-      background-color: #6F6F7F;
-
-}
-a {
-  color: white;
-  text-decoration: none;
-
+html {
+  background-color: #84A79B;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
-ul {
-  text-align: center;
-  /*background-color: purple;*/
-  padding: 16px;
-  margin-right: 250px;
-
+/* ---------------------------------------- */
+/* NAVIGATION */
+/* ---------------------------------------- */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-
-#navlist li {
-  font-family: 'Proza Libre', sans-serif;
-  display: inline-block;
-  list-style-type: none;
-  padding-right: 20px;
-  color: white;
-  padding: 16px;
+.main-nav {
   float: right;
-
+  list-style: none;
+  margin-top: 55px;
 }
 
-
-header {
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(https://www.outtherecolorado.com/wp-content/uploads/2017/03/65c35611befe96d3a3f0f010e1e74fcd.jpg);
-  background-size: cover;
-  height: 75vh;
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
 }
 
-.name {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-}
-h1 {
-  font-family: 'Proza Libre', sans-serif;
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
   text-transform: uppercase;
+  font-size: 100%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    border-bottom: 2px solid #84A79B;
+
+}
+
+
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+h1,
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Cabin Sketch', cursive;
   margin: 0;
   font-size: 5rem;
   font-weight: 300;
   white-space: nowrap;
 }
+
 h2 {
-  font-size: 2rem;
-  color: white;
+  font-size: 180%;
+  color: #1B1B1B;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
 }
-p {
-  margin: 0;
-  font-size: 1.3rem;
+
+
+ul {
+  text-align: center;
+  padding: 16px;
+  margin-right: 320px;;
+
+}
+
+
+header {
+  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/nature.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.name-textbox {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 
-main {
+
+p {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #1B1B1B;
+}
+
+.section-features {
+  margin-bottom: 30px;
   max-width: 1140px;
-  margin: 20px auto;
+  margin: 60px auto;
   text-align: justify;
 }
+
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+.section-portfolio {
+  padding: 0;
+}
+
+.wireframe-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.wireframe-showcase li {
+    display: block;
+    float: left;
+    margin-top: 50px;
+    width: 24%;
+  }
+
+.portfolio-photo {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+  .portfolio-photo img {
+    height: 500px;
+    width: auto;
+
+  }
